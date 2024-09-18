@@ -1,5 +1,5 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+ return s1.includes(s2)? s1.indexOf(s2) : -1
 }
 
 // Please do not change the code below
