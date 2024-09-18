@@ -1,5 +1,5 @@
 function indexOfIgnoreCase(s1, s2) {
- return s1.includes(s2)? parseInt(s1.indexOf(s2)) : -1
+    return s1.toLowerCase().indexOf(s2.toLowerCase());
 }
 
 Please do not change the code below
